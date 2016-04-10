@@ -1,0 +1,12 @@
+The Chrome Advanced REST client works well for testing and developing WFA workflows.
+For POST requests, XML output can be pasted into the payload.  GET requests return the direct WFA output.
+
+To set the authorization header string (required for POST or GET), enter a header value named "Authorization".  Enter a valid username and password, and create with basic encoding.
+
+#get a list of all available workflows for WFA (means it has been marked "ready for production" to get on the list)
+https://wfa/rest/workflows GET
+#schedule a new job
+https://wfa/rest/workflows/c6ec929e-5f05-4bd1-8aa5-104c9807df64/jobs POST
+# Payload of POST is XML, required variables are listed in the workflow GET command above.
+#get the status of a running job, the job id number is returned when the schedule command is sent.
+https://wfa/rest/workflows/c6ec929e-5f05-4bd1-8aa5-104c9807df64/jobs/12653 GET 

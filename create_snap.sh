@@ -7,10 +7,10 @@
 # 1.1:  Added configurable curl timeout.  Fixed commands needing to use $CURL_OUT instead of hardcoded.
 
 #Array Parameters
-CLUSTER="sa0319nacl01"
-VSERVER="svm0319nas04"
-VOLUME="prd_stash"
-SNAP_BASE="stash_backup_"
+CLUSTER="cluster_name"
+VSERVER="vserver_name"
+VOLUME="vol_name"
+SNAP_BASE="_backup_"
 SNAP_DATE=`date +"%Y%m%d%H%M"`
 #Curl Parameters
 USER="xxxxx"

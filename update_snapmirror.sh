@@ -8,9 +8,9 @@
 
 #Array Parameters
 
-DEST_CLUSTER="sa0319nacl01"
-DEST_VOLUME="tst_automation_m1"
-DEST_VSERVER="svm0319nas06"
+DEST_CLUSTER="cluster_name"
+DEST_VOLUME="vol_name"
+DEST_VSERVER="vserver_name"
 
 #Curl Parameters
 USER="xxxxx"

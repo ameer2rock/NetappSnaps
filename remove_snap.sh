@@ -6,13 +6,13 @@
 # 1.0: initial
 
 #Array Parameters
-CLUSTER="sa0319nacl01"
-VSERVER="svm0319nas04"
-VOLUME="tst_automation"
+CLUSTER="cluster_name"
+VSERVER="vserver_name"
+VOLUME="vol_name"
 #take snapshot name as passed parameter, if blank use variable defined value
 SNAP_NAME=""
 #Curl Parameters
-# NOTE:  Domain user requires three slashes to be escaped correctly ie: nord\\\username
+# NOTE:  Domain user requires three slashes to be escaped correctly ie: domainname\\\username
 USER="xxxxx"
 PASSWORD="xxxxx"
 CURL="/usr/bin/curl"
